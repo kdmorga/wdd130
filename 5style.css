@@ -1,0 +1,42 @@
+#person{
+    border-radius: 50%;
+    width: 260px;
+    border-color: 20px solid black;
+    padding: 5px;
+}
+
+#desk{
+    border-radius: 50%;
+    width: 260px;
+
+}
+
+
+#graphic{
+    border-radius: 50%;
+    width: 260px;
+    border-color: gray;
+}
+
+
+
+
+#title{
+    width: 100%;
+    margin: 0px;
+
+}
+
+
+
+.images{
+    display: inline-block; 
+    
+    
+    margin: 0 auto;
+   
+}
+
+body{
+    background-color: gray;
+}
