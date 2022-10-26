@@ -6,6 +6,7 @@
     margin: 0 auto;
 }
 
+
 nav a {
     text-align: center; 
     color: white;
@@ -130,6 +131,11 @@ footer .social img{
 }
 
 
+
 main section img {
     box-sizing: border-box;
+}
+
+.logo{
+    width: 80px;
 }
