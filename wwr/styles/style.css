@@ -123,6 +123,7 @@ h4{
 
 #river-img{
     width: 100%;
+
 }
 
 .msg h2{
@@ -246,6 +247,31 @@ nav{
 }
 
 
+/* Rivers Page CSS; for the most part*/
+div.a{
+    text-align: left;
+    text-align: center;
+    
+}
+
+div.b{
+    text-align: right;
+    text-align: center;
+
+}
+
+div.c{
+    text-align: center;
+}
+
+#river-pic1{
+    float: right;
+    
+}
+
+#river-pic2{
+    float: left;
+}
 
 
 
