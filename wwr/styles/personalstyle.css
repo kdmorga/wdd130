@@ -1,75 +1,118 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Serif+Pro&display=swap');
 
-div.a{
+div.a {
     text-align: center;
 
 }
 
-div.b{
+div.b {
     text-align: left;
     margin: 50px;
 }
 
 
-nav  a {
-    text-align: center; 
+nav a {
+    text-align: center;
     color: #FE5F55;
     text-decoration: none;
     padding: 35px;
 }
 
-header{ 
+header {
     background-color: #FEE440;
     display: grid;
     grid-template-columns: 150px auto;
-    
+
 }
 
-nav a:hover{
+nav a:hover {
     background-color: #FE5F55;
     color: #2B303A;
 }
 
 
-nav{
+nav {
     display: flex;
     justify-content: space-around;
 }
 
-.logo{
+.logo {
     width: 100px;
     border-radius: 50%;
 
 }
 
 
-#logo_link{
+#logo_link {
     padding-top: 5px;
     justify-self: center;
     align-self: center;
 }
 
-h1{
+h1 {
     font-family: 'Bebas Neue', Sans Serif;
 }
 
-h2{
+h2 {
     font-family: 'Bebas Neue', Sans Serif;
 }
 
-p{
+p {
     font-family: 'Source Serif Pro', Sans Serif;
     font-size: 30px;
 }
 
-#personalpic{
+#personalpic {
     width: 500px;
-    
+
 }
 
-/* Stupid Hoe Footer*/ 
+/* CSS example code*/
+.container {
+    position: relative;
+    width: 50%;
+}
 
-footer{
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #FEE440;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+
+/* Stupid Hoe Footer*/
+
+footer {
     background-color: #DD5955;
     color: white;
     padding: 25px 50px;
@@ -77,5 +120,5 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+
 }
